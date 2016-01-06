@@ -1,0 +1,63 @@
+body {
+	color: 000;
+}
+
+
+div {
+	width: 50%;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Inconsolata';
+}
+
+h1 {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: uppercase;
+}
+
+h2 {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 32px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 32px;
+	text-align: center;
+	
+}
+
+h4 {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: 000;
+}
+
+.flex-center {
+	justify-content: center;
+	text-align: center;
+	font-family: 'Inconsolata';
+	text-decoration: none;
+	color: 000;
+}
+iframe {
+	margin-top: 90px;
+}
+
+footer {
+	font-family: 'Inconsolata';
+	text-align: center;
+	font-size: 15px;
+	margin-top: 120px;
+}
