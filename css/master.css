@@ -17,12 +17,14 @@ h1 {
 	font-size: 50px;
 	text-align: center;
 	text-decoration: uppercase;
+	margin-top: 15px;
 }
 
 h2 {
 	font-family: 'UnifrakturMaguntia', cursive;
 	font-size: 32px;
 	text-align: center;
+	margin-top: 1.5em;
 }
 
 h3 {
@@ -42,6 +44,7 @@ h4 {
 a {
 	text-decoration: none;
 	color: 000;
+	text-align: center;
 }
 
 .flex-center {
@@ -52,22 +55,19 @@ a {
 	color: 000;
 }
 
-hr {
-	margin-top: 75px;
-	border: 0;
-    height: 1px;
-    width: 540px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
-iframe {
-	margin-top: 90px;
-}
-
 footer {
 	font-family: 'Inconsolata';
 	text-align: center;
-	font-size: 15px;
-	margin-top: 120px;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+/* media queries */
+
+/* for small phones */
+
+@media (max-width: 599px) {
+	a.mail {
+		margin-left: -45px;
+	}
 }
