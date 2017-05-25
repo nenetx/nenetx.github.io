@@ -67,7 +67,17 @@ footer {
 /* for small phones */
 
 @media (max-width: 599px) {
+
+	div {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	footer {
+		font-size: 11px;
+	}
+
 	a.mail {
-		margin-left: -45px;
+		margin-left: ;
 	}
 }
